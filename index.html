@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Câmara do Comércio e Indústria - Angola & Botswana</title>
+    <title t-id="app-title"></title>
   </head>
   <body>
     <main class="page">
@@ -15,10 +15,9 @@
       <section class="content-wrap">
         <div class="layout-grid">
           <div class="hero-card fade-up">
-            <p class="badge fade-up delay-1">Em Breve • Coming Soon</p>
+            <p class="badge fade-up delay-1" t-id="coming-soon"></p>
 
-            <h1 class="app-title fade-up delay-1">Site esta em desenvolvimento</h1>
-            <p class="subtitle fade-up delay-2">Website is under development</p>
+            <h1 class="app-title fade-up delay-1" t-id="website-under-development"></h1>
 
             <div class="flags-box fade-up delay-2" aria-label="Bandeiras de Angola e Botswana">
               <img src="./assets/angola-flag.png" alt="Bandeira de Angola" class="flag" />
@@ -27,8 +26,8 @@
             </div>
 
             <div class="org-copy fade-up delay-2">
-              <p class="org-pt">Câmara de Comércio e Indústria <span class="angola">Angola</span> - <span class="botswana">Botswana</span></p>
-              <p class="org-en">Chamber of Commerce and Industry <span class="angola">Angola</span> - <span class="botswana">Botswana</span></p>
+              <p class="org-en"><span t-id="cci"></span>
+                <br /> <span class="angola">Angola</span> - <span class="botswana">Botswana</span></p>
             </div>
           </div>
 
@@ -44,14 +43,14 @@
                 aria-label="Ambiente visual de construcao"
               ></video>
               <div class="video-vignette" aria-hidden="true"></div>
-              <span class="video-chip">Em producao</span>
+              <span class="video-chip" t-id="in-production"></span>
             </div>
 
-            <p class="card-title">A construir algo grande</p>
-            <p class="card-subtitle">Building something remarkable</p>
+            <p class="card-title" t-id="building-something-remarkable"></p>
           </aside>
         </div>
       </section>
     </main>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
