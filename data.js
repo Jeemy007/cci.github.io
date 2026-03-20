@@ -1,6 +1,6 @@
 export const translations = {
     pt: {
-        'app-title': 'Câmara do Comércio e Indústria - Angola & Botswana',
+        'app-title': 'Câmara de Comércio e Indústria Angola - Botswana',
         'coming-soon': 'Em breve',
         'cci': 'Câmara de Comércio e Indústria',
         'in-construction': 'Em Construção',
@@ -8,7 +8,7 @@ export const translations = {
         'language': 'Idioma',
     }, 
     en: {
-        'app-title': 'Chamber of Commerce and Industry - Angola & Botswana',
+        'app-title': 'Chamber of Commerce and Industry Angola - Botswana',
         'coming-soon': 'Coming Soon',
         'cci': 'Chamber of Commerce and Industry',
         'in-construction': 'In Construction',
