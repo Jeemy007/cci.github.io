@@ -5,7 +5,8 @@ export const translations = {
         'website-under-development': 'Site está em desenvolvimento',
         'cci': 'Câmara de Comércio e Indústria',
         'in-production': 'Em produção',
-        'building-something-remarkable': 'A construir algo grande'
+        'building-something-remarkable': 'A construir algo grande',
+        'language': 'Idioma',
     }, 
     en: {
         'app-title': 'Chamber of Commerce and Industry - Angola & Botswana',
@@ -13,6 +14,7 @@ export const translations = {
         'website-under-development': 'Website is under development',
         'cci': 'Chamber of Commerce and Industry',
         'in-production': 'In Production',
-        'building-something-remarkable': 'Building something remarkable'
+        'building-something-remarkable': 'Building something remarkable',
+        'language': 'Language',
     }
 }

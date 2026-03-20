@@ -8,6 +8,12 @@
   </head>
   <body>
     <main class="page">
+      <div class="lang-switch fade-up" role="group">
+        <span class="lang-label" t-id="language"></span>
+        <button type="button" class="lang-btn" data-lang="pt" aria-pressed="false">PT</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+
       <div class="orb orb-left" aria-hidden="true"></div>
       <div class="orb orb-right" aria-hidden="true"></div>
       <div class="pattern-layer" aria-hidden="true"></div>
@@ -19,10 +25,10 @@
 
             <h1 class="app-title fade-up delay-1" t-id="website-under-development"></h1>
 
-            <div class="flags-box fade-up delay-2" aria-label="Bandeiras de Angola e Botswana">
-              <img src="./assets/angola-flag.png" alt="Bandeira de Angola" class="flag" />
+            <div class="flags-box fade-up delay-2">
+              <img src="./assets/angola-flag.png" class="flag"  />
               <span class="divider" aria-hidden="true"></span>
-              <img src="./assets/botswana-flag.png" alt="Bandeira do Botswana" class="flag" />
+              <img src="./assets/botswana-flag.png" class="flag" />
             </div>
 
             <div class="org-copy fade-up delay-2">
@@ -31,7 +37,7 @@
             </div>
           </div>
 
-          <aside class="construction-card fade-up delay-2" aria-label="Animacao de construcao do site">
+          <aside class="construction-card fade-up delay-2">
             <div class="video-shell">
               <video
                 src="./assets/construction.mp4"
@@ -40,7 +46,6 @@
                 loop
                 playsinline
                 class="construction-video"
-                aria-label="Ambiente visual de construcao"
               ></video>
               <div class="video-vignette" aria-hidden="true"></div>
               <span class="video-chip" t-id="in-production"></span>
