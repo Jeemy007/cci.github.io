@@ -243,6 +243,15 @@ body {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: #1d3557;
+  transition: color 0.2s ease;
+}
+
+body.lang-pt .card-title {
+  color: #cc092f;
+}
+
+body.lang-en .card-title {
+  color: #abcae9;
 }
 
 .card-subtitle {

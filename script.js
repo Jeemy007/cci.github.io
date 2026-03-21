@@ -43,6 +43,8 @@ const applyLanguage = (language) => {
     const dictionary = getDictionary(finalLanguage);
 
     document.documentElement.lang = finalLanguage;
+    document.body.classList.remove('lang-pt', 'lang-en');
+    document.body.classList.add(`lang-${finalLanguage}`);
     applyTextTranslations(dictionary);
     syncLanguageButtons(finalLanguage);
 
