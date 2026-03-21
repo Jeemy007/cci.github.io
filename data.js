@@ -11,7 +11,7 @@ export const translations = {
         'app-title': 'Angola Botswana Chamber of Commerce and Industry',
         'coming-soon': 'Coming Soon',
         'cci': 'Chamber of Commerce and Industry',
-        'in-construction': 'In Construction',
+        'in-construction': 'Under Construction',
         'tagline': '"Connecting Markets, Integrating the Region, Expanding Visions"',
         'language': 'Language',
     }
