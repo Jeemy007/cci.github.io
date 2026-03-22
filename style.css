@@ -183,6 +183,25 @@ body {
   color: #334155;
 }
 
+.contact-info {
+  margin: 1rem 0 0;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.contact-link {
+  color: #1d3557;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(29, 53, 87, 0.3);
+}
+
+.contact-link:hover {
+  color: #0b5cab;
+  border-bottom-color: rgba(11, 92, 171, 0.45);
+}
+
 .construction-card {
   display: flex;
   flex-direction: column;

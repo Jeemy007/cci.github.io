@@ -6,6 +6,7 @@ export const translations = {
         'in-construction': 'Em Construção',
         'tagline': '"Ligar mercados, Integrar a região, Expandir Visões"',
         'language': 'Idioma',
+        'contact': 'Contacto:',
     }, 
     en: {
         'app-title': 'Angola Botswana Chamber of Commerce and Industry',
@@ -14,5 +15,6 @@ export const translations = {
         'in-construction': 'Under Construction',
         'tagline': '"Connecting Markets, Integrating the Region, Expanding Visions"',
         'language': 'Language',
+        'contact': 'Contact:',
     }
 }
